@@ -1,6 +1,3 @@
-namespace atividadePratica00
-{
-
 public class Cliente
 {   
     //Classes nome e cpf
@@ -8,14 +5,18 @@ public class Cliente
     private int _cpf;
         
 
-    public int GetCpf()
+    public int Cpf
     {
-        return _cpf;
+         get => _cpf;
+         set => _cpf = value;
     }
-    public int SetCpf(int cpf)
+
+    public String nome 
     {
-        _cpf = cpf;
+        get => _nome;
+        set => _nome = value;
     }
+
 
 
     // // Campos (variáveis) da classe
@@ -35,5 +36,4 @@ public class Cliente
     // {
     //     Console.WriteLine("Este é um método da MinhaClasse.");
     // }
-}
 }
