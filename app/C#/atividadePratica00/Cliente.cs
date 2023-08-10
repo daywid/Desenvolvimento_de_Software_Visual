@@ -3,8 +3,7 @@ public class Cliente
     //Classes nome e cpf
     private string _nome;
     private int _cpf;
-        
-
+    
     public int Cpf
     {
          get => _cpf;
