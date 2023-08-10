@@ -1,6 +1,6 @@
 public class Complemento
 {
-    private int _id
+    private int _id;
     private String _descricao;
     private double _valor;
 

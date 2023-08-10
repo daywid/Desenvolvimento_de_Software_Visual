@@ -17,6 +17,9 @@ public class Cliente
     }
 
 
+    // COLOCAR OS METODOS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 
     // // Campos (variáveis) da classe
     // private int meuCampoInteiro;
