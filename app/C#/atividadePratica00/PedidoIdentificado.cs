@@ -1,14 +1,10 @@
-namespace atividadePratica00{
-
 public class PedidoIdentificado
 {
-    private Cliente cliente;
+    private Cliente _cliente;
 
-
-
-
-
-
-
-}
+    public Cliente cliente
+    {
+        get { return _cliente; } 
+        set { _cliente = value; }
+    }
 }
