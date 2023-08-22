@@ -19,7 +19,7 @@ public class Cliente
 
     // COLOCAR OS METODOS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
+  //GG EZ
 
     // // Campos (variáveis) da classe
     // private int meuCampoInteiro;
