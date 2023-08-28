@@ -17,6 +17,7 @@ public class Pizza
         Portuguesa,
         Especial
     }
+
     public enum SaborPizza
     {
         Calabresa,
@@ -30,6 +31,7 @@ public class Pizza
         Bacon,
         Camarao
     }
+    
     public enum TamanhoPizza
     {
         Pequeno,

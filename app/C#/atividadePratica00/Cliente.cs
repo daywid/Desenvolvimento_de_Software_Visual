@@ -2,24 +2,55 @@ public class Cliente
 {   
     //Classes nome e cpf
     private string _nome;
-    private int _cpf;
-    
-    public int Cpf
+    private string _cpf;
+    public static List<Cliente> clientes = new();
+ 
+    public Cliente()
     {
-         get => _cpf;
-         set => _cpf = value;
+        _cpf = "";
+        _nome= "";
+
     }
 
-    public String nome 
+    public Cliente(string cpf)
+    {
+        Cliente cli = Cliente.clientes.Find(x => x.Cpf == Cpf);
+        if(cli == null)
+        {
+            _cpf = string.Empty;
+            _nome = string.Empty;
+        }
+        else
+        {
+            _cpf = cli.Cpf;
+            _nome = cli.nome;
+        }
+    }
+
+    public Cliente(string cpf, string nome)
+    {
+        _cpf = cpf;
+        _nome = nome;
+    }
+
+
+    public string Cpf
+    {
+         get {return _cpf;}
+         set {_cpf = value;}
+    }
+
+    public string nome 
     {
         get => _nome;
         set => _nome = value;
     }
 
 
+
     // COLOCAR OS METODOS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-  //GG EZ
+
 
     // // Campos (variáveis) da classe
     // private int meuCampoInteiro;

@@ -1,7 +1,6 @@
 public class ItemPedido
 {
     private int _id;
-
     private int _quantidade;
 
     public int Id 

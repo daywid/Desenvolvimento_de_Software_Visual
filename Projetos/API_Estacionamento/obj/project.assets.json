@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\Extras.csproj",
+      "projectUniqueName": "c:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\API_Estacionamento\\Extras.csproj",
       "projectName": "Extras",
-      "projectPath": "C:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\Extras.csproj",
+      "projectPath": "c:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\API_Estacionamento\\Extras.csproj",
       "packagesPath": "C:\\Users\\daywi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\obj\\",
+      "outputPath": "c:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\API_Estacionamento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\daywi\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,4 @@
-public class PedidoIdentificado
+public class PedidoIdentificado : Pedido //Extends
 {
     private Cliente _cliente;
 
