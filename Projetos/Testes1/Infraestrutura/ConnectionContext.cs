@@ -16,6 +16,6 @@ namespace Testes1.Infraestrutura
             "Server=localhost;" +
             "Port=5432;Database=webAPI-Tests;" +
             "User Id=postgres;" + 
-            "Password=123;");
+            "Password=postgres;");
     }
 }
