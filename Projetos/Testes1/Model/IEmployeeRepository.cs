@@ -7,8 +7,8 @@ namespace Testes1.Model
 {
     public interface IEmployeeRepository
     {
-        void add(Employee employee);
+        public void Add(Employee employee);
 
-        List<Employee> Get();
+        public List<Employee> Get();
     }
 }
