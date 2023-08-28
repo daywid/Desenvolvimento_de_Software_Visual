@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2k1b4Wyhcfct2ZzR9UFXfuGSW/7QxjUYxpvnbG7+H6WT6esEZTCujn8jz0Oh2TujybkHz5c0/qL8ojhMpybDEQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\Desenvolvimento_de_Software_Visual\\Extras\\Extras.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daywi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
