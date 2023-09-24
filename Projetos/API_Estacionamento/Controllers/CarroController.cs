@@ -1,7 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using API_Estacionamento.Models;
-using API_Estacionamento.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace API_Estacionamento.Controllers;
 
@@ -9,43 +7,20 @@ namespace API_Estacionamento.Controllers;
 [Route("[controller]")]
 public class CarroController : ControllerBase
 {
-    private EstacionamentoDbContext? _context;
-
-    public CarroController(EstacionamentoDbContext context)
+    private readonly ILogger<CarroController> _logger;
+    public CarroController(ILogger<CarroController> logger)
     {
-        _context = context;
+        _logger = logger;
     }
 
-    [HttpGet]
-    [Route("listar")]
-    public async Task<ActionResult<IEnumerable<Carro>>> Listar()
+    [HttpGet(Name = "GetCarro")]
+    public IEnumerable<Carro> Get()
     {
-        if(_context.Carro is null)
-            return NotFound();
-        return await _context.Carro.ToListAsync();
-    }
-    [HttpGet()]
-    [Route("buscar/{placa}")]
-    public async Task<ActionResult<Carro>> Buscar([FromRoute] string placa)
-    {
-        if(_context.Carro is null)
-            return NotFound();
-        var carro = await _context.Carro.FindAsync(placa);
-        if (carro is null)
-            return NotFound();
-        return carro;
-    }
-    [HttpPost]
-    [Route("cadastrar")]
-    public IActionResult Cadastrar(Carro carro)
-    {
-        _context.Add(carro);
-        _context.SaveChanges();
-        return Created("", carro);
+        List<Carro> carroList = new()
+        {
+            new Carro("ABC1234", "FIAT Argo"),
+            new Carro("DEF5678", "GM Ônix")
+        };
+        return carroList;
     }
 }
-
-
-
-
-
